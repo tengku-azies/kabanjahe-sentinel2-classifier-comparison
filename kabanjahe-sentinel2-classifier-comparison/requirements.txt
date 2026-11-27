@@ -1,0 +1,6 @@
+# Python >= 3.10 (analyses were run with Python 3.14)
+numpy>=1.26
+pandas>=2.2
+scipy>=1.13
+scikit-learn>=1.5    # nested-tuning sensitivity analysis was run with 1.9.1
+rasterio>=1.3        # only needed for `02_reanalysis.py map`

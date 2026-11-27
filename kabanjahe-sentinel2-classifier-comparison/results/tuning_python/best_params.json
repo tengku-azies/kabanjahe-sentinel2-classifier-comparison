@@ -1,0 +1,234 @@
+{
+ "pixel": {
+  "RF": [
+   {
+    "max_features": 2,
+    "min_samples_leaf": 1
+   },
+   {
+    "max_features": 2,
+    "min_samples_leaf": 1
+   },
+   {
+    "max_features": 5,
+    "min_samples_leaf": 1
+   },
+   {
+    "max_features": 3,
+    "min_samples_leaf": 1
+   },
+   {
+    "max_features": 3,
+    "min_samples_leaf": 1
+   }
+  ],
+  "CART": [
+   {
+    "max_depth": 20,
+    "min_samples_leaf": 1
+   },
+   {
+    "max_depth": 20,
+    "min_samples_leaf": 1
+   },
+   {
+    "max_depth": 20,
+    "min_samples_leaf": 1
+   },
+   {
+    "max_depth": null,
+    "min_samples_leaf": 1
+   },
+   {
+    "max_depth": 20,
+    "min_samples_leaf": 1
+   }
+  ],
+  "SVM": [
+   {
+    "svc__C": 10,
+    "svc__gamma": 1
+   },
+   {
+    "svc__C": 10,
+    "svc__gamma": 1
+   },
+   {
+    "svc__C": 10,
+    "svc__gamma": 1
+   },
+   {
+    "svc__C": 10,
+    "svc__gamma": 1
+   },
+   {
+    "svc__C": 10,
+    "svc__gamma": 1
+   }
+  ],
+  "NB": [
+   {
+    "var_smoothing": 0.001
+   },
+   {
+    "var_smoothing": 0.001
+   },
+   {
+    "var_smoothing": 0.001
+   },
+   {
+    "var_smoothing": 0.001
+   },
+   {
+    "var_smoothing": 0.001
+   }
+  ],
+  "MLC": [
+   {
+    "reg_param": 0.0
+   },
+   {
+    "reg_param": 0.0
+   },
+   {
+    "reg_param": 0.0001
+   },
+   {
+    "reg_param": 0.01
+   },
+   {
+    "reg_param": 0.01
+   }
+  ],
+  "MD": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "SAM": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ "polygon": {
+  "RF": [
+   {
+    "max_features": 2,
+    "min_samples_leaf": 3
+   },
+   {
+    "max_features": 3,
+    "min_samples_leaf": 1
+   },
+   {
+    "max_features": 3,
+    "min_samples_leaf": 3
+   },
+   {
+    "max_features": 2,
+    "min_samples_leaf": 1
+   },
+   {
+    "max_features": 2,
+    "min_samples_leaf": 1
+   }
+  ],
+  "CART": [
+   {
+    "max_depth": 10,
+    "min_samples_leaf": 20
+   },
+   {
+    "max_depth": 5,
+    "min_samples_leaf": 1
+   },
+   {
+    "max_depth": 5,
+    "min_samples_leaf": 20
+   },
+   {
+    "max_depth": 10,
+    "min_samples_leaf": 20
+   },
+   {
+    "max_depth": 10,
+    "min_samples_leaf": 20
+   }
+  ],
+  "SVM": [
+   {
+    "svc__C": 10,
+    "svc__gamma": 0.01
+   },
+   {
+    "svc__C": 10,
+    "svc__gamma": 0.01
+   },
+   {
+    "svc__C": 10,
+    "svc__gamma": 0.01
+   },
+   {
+    "svc__C": 100,
+    "svc__gamma": 0.01
+   },
+   {
+    "svc__C": 100,
+    "svc__gamma": 0.01
+   }
+  ],
+  "NB": [
+   {
+    "var_smoothing": 1e-09
+   },
+   {
+    "var_smoothing": 0.001
+   },
+   {
+    "var_smoothing": 1e-09
+   },
+   {
+    "var_smoothing": 0.001
+   },
+   {
+    "var_smoothing": 0.001
+   }
+  ],
+  "MLC": [
+   {
+    "reg_param": 0.0
+   },
+   {
+    "reg_param": 0.0
+   },
+   {
+    "reg_param": 0.01
+   },
+   {
+    "reg_param": 0.01
+   },
+   {
+    "reg_param": 0.01
+   }
+  ],
+  "MD": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "SAM": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ }
+}

@@ -1,0 +1,39 @@
+Piksel per kelas:
+ class
+0_BU     3420
+1_F      4036
+2_VC     6611
+3_NVC    1365
+Poligon per kelas:
+ class
+0_BU     15
+1_F      15
+2_VC     15
+3_NVC    15
+PERINGATAN: ada kelas dengan < 20 poligon; hasil validasi per poligon akan tidak stabil. Disarankan >= 30 poligon per kelas.
+Validasi silang, desain: pixel
+  [pixel] lipatan 1/5 selesai
+  [pixel] lipatan 2/5 selesai
+  [pixel] lipatan 3/5 selesai
+  [pixel] lipatan 4/5 selesai
+  [pixel] lipatan 5/5 selesai
+Validasi silang, desain: polygon
+  [polygon] lipatan 1/5 selesai
+  [polygon] lipatan 2/5 selesai
+  [polygon] lipatan 3/5 selesai
+  [polygon] lipatan 4/5 selesai
+  [polygon] lipatan 5/5 selesai
+
+Inflasi akurasi (OA piksel-acak dikurangi OA per-poligon):
+       OA_pixel  OA_polygon  inflation_points  rank_pixel  rank_polygon
+model                                                                  
+RF        98.33       92.31              6.02           1             3
+CART      96.75       90.83              5.92           3             4
+SVM       98.08       93.70              4.37           2             1
+NB        90.09       88.82              1.28           5             5
+MLC       94.56       93.20              1.36           4             2
+MD        87.01       85.25              1.76           6             6
+SAM       80.59       80.02              0.57           7             7
+
+Korelasi peringkat Spearman antar desain: 0.821
+Semua tabel tersimpan di: hasil_tuned/
