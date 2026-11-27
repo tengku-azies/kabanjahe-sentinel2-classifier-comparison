@@ -32,7 +32,7 @@ Class codes: 0 = built-up (BU), 1 = forest (F), 2 = vegetated cropland (VC), 3 =
 ## Data
 
 - Imagery: Copernicus Sentinel-2 Level-2A (`COPERNICUS/S2_SR_HARMONIZED`), scenes of 22 Oct 2024, 23 Aug 2025, and 22 May 2026, cloud-masked with Cloud Score+ (cs_cdf ≥ 0.60). Contains modified Copernicus Sentinel data (2024–2026).
-- Boundary: 2024 administrative boundary of the Geospatial Information Agency of Indonesia (BIG).
+- Boundary: 2024 administrative boundary of the Geospatial Information Agency of Indonesia (BIG), obtained through LapakGIS (Batas Kelurahan/Desa 2024) and dissolved to the district level.
 - CRS: WGS 84 / UTM Zone 47N (EPSG:32647), 10 m.
 
 ## How to reproduce
